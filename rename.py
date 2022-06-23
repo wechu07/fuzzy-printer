@@ -1,6 +1,7 @@
 import os
 
-folder = r'G:\telegram desktop\lnmb\\'
+folder = r'C:\Users\user\Downloads\Documents'
+# replace with the path to your PDF files
 count = 1
 # count increase by 1 in each iteration
 # iterate all files from a directory
@@ -9,7 +10,7 @@ for file_name in os.listdir(folder):
     source = folder + file_name
 
     # Adding the count to the new file name and extension
-    destination = folder + "\\" + "LNMB" + " " + "certificate" + str(count) + ".pdf"
+    destination = folder + "file_" + str(count) + ".txt"
 
     # Renaming the file
     os.rename(source, destination)
