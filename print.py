@@ -5,7 +5,7 @@ list_of_names = []
 def cleanup_data():
     with open("names-data.txt") as file:
         for line in file:
-            list_of_names.append(line.strip());
+            list_of_names.append(line.strip())
 
 def generate_certificates():
     for name in list_of_names:
