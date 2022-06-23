@@ -4,5 +4,8 @@ This project is based on the Python programming language. AIm is simple, to auto
 
 I used a free JPG to PDF converter, that individually converted the resulting files into separate PDFs that need renaming. I recognize that this is probably old school anyway.
 
+[rename]
+
 [print](print.py)
-* Prints the names of the 
+* Prints the names of the individuals on a JPG file 
+    * Names are contained in an MS Excel file or Google sheets file
