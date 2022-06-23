@@ -6,7 +6,7 @@ I used a free JPG to PDF converter, that individually converted the resulting fi
 
 [print.py](print.py)
 * Prints the names of the individuals on a JPG file using [opencv-python](https://pypi.org/project/opencv-python/)
-    * Names are contained in an MS Excel file or Google sheets file
+    * Names are contained in a .txt file
 
 [rename.py](rename.py)
 * Renames the awkwardly names files to a preferred name using [os — Miscellaneous operating system interfaces](https://docs.python.org/3/library/os.html)
