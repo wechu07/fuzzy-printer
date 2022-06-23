@@ -4,3 +4,5 @@ This project is based on the Python programming language. AIm is simple, to auto
 
 I used a free JPG to PDF converter, that individually converted the resulting files into separate PDFs that need renaming. I recognize that this is probably old school anyway.
 
+[print](print.py)
+* Prints the names of the 
