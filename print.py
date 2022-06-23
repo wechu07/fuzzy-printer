@@ -1,5 +1,9 @@
 import cv2
 
+'''
+I will write better comments for each function
+'''
+
 list_of_names = []
 
 def cleanup_data():
