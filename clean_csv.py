@@ -6,7 +6,8 @@ with open('volunteer names 2024 LNMB.csv', 'r', encoding='utf-8') as file:
 cleaned_lines = []
 for line in lines:
     # Remove the numbering and leading/trailing whitespace
-    cleaned_line = line.split(' ', 1)[-1].strip()
+    # I first replaced . with # to avoid removing the numbering in the names
+    cleaned_line = line.split('#', 1)[-1].strip()
     cleaned_lines.append(cleaned_line)
 
 # Write the cleaned names to a new file

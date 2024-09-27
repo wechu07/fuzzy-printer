@@ -1,0 +1,9 @@
+Deprecated==1.2.14
+img2pdf==0.5.1
+lxml==5.3.0
+numpy==2.1.1
+opencv-python==4.10.0.84
+packaging==24.1
+pikepdf==9.2.1
+pillow==10.4.0
+wrapt==1.16.0
